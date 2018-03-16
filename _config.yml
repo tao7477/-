@@ -5,7 +5,7 @@ description: 这是一个菜鸟的博客~
 # 头像里面的标题
 avatarTitle: tao7477
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
+avatarDesc: 前端开发 / 初级
 url: "https://tao7477.github.io"
 
 # Comment
@@ -22,11 +22,14 @@ social:
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-
+baidu:
+    id: 38cf0049b9c13bdd2906df6230c3a9d6  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
-
+#  ga:
+    #  id: UA-84134159-3   
+    #  host: auto  
 
 
 
