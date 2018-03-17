@@ -245,10 +245,6 @@ td:last-child {
   border: 1px solid #363636;
 }
 
-audio{
-	display:none;
-}
-
 /*pager start----------------*/
 .post-container 
 .pager li{ 
