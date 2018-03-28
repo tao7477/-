@@ -10,12 +10,12 @@ body{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-repeat: no-repeat;
-  cursor: url("cur/mouse1.cur"), url("cur/mouse1.cur"), auto;
+  cursor: url("/cur/mouse1.cur"), url("/cur/mouse1.cur"), auto;
 }
 
 
 A {
-  cursor: url("cur/mouse2.cur"), url("cur/mouse2.cur"), auto;
+  cursor: url("/cur/mouse2.cur"), url("/cur/mouse2.cur"), auto;
 }
 
 audio{
@@ -26,7 +26,7 @@ audio{
 @media (max-width:768px) {
   body {
     background-color: #f0f0f0;
-    background: url("img/bg4.gif");
+    background: url("/images/bg4.gif");
     background-attachment: fixed;
   }
 }
@@ -103,7 +103,7 @@ audio{
   .animation(imageAnimation, 36s linear infinite 0s);
 }
 .slideshow li:nth-child(1) span {
-  background-image: url("img/01.jpg");
+  background-image: url("/images/01.jpg");
 }
 
 .animation-delay(@path, @attr){
@@ -115,23 +115,23 @@ audio{
 }
 
 .slideshow li:nth-child(2) span {
-  .animation-delay("img/02.jpg", 6s);
+  .animation-delay("/images/02.jpg", 6s);
 }
 
 .slideshow li:nth-child(3) span {
-  .animation-delay("img/03.jpg", 12s);
+  .animation-delay("/images/03.jpg", 12s);
 }
 
 .slideshow li:nth-child(4) span {
-  .animation-delay("img/04.jpg", 18s);
+  .animation-delay("/images/04.jpg", 18s);
 }
 
 .slideshow li:nth-child(5) span {
-  .animation-delay("img/05.jpg", 24s);
+  .animation-delay("/images/05.jpg", 24s);
 }
 
 .slideshow li:nth-child(6) span {
-  .animation-delay("img/06.jpg", 30s);
+  .animation-delay("/images/06.jpg", 30s);
 }
 /*背景图片结束*/
 
@@ -279,7 +279,7 @@ audio{
   }
   :hover{
     background: none;
-    cursor: url("cur/mouse2.cur"), url("cur/mouse2.cur"), auto;
+    cursor: url("/cur/mouse2.cur"), url("/cur/mouse2.cur"), auto;
     .animation(neon, 1.5s ease-in-out infinite alternate);
   }
 }
@@ -317,20 +317,20 @@ audio{
 .item-right .note{
   padding-top: 38px;
   margin-bottom: 10px;
-  background: url("img/bg-note-top.png") top center no-repeat;
+  background: url("/images/bg-note-top.png") top center no-repeat;
   width: 271px;
 }
 
 .note-container{
   padding: 1px 20px 0;
   text-indent: 2em;
-  background: url("img/bg-note-middle.png") top center repeat-y;
+  background: url("/images/bg-note-middle.png") top center repeat-y;
   overflow: hidden;
 }
 
 .note-bottom{
   padding-bottom: 34px;
-  background: url("img/bg-note-bottom.png") bottom center no-repeat;
+  background: url("images/bg-note-bottom.png") bottom center no-repeat;
 }
 
 .progress-box{
